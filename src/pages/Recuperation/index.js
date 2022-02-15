@@ -1,0 +1,24 @@
+import React from 'react';
+// eslint-disable-next-line no-unused-vars
+import Image_principale from '../../components/atoms/Image_principale';
+import Input_email from '../../components/atoms/input/Input_email';
+import Button_send from '../../components/atoms/button/Button_send';
+
+const Recuperation = () => {
+    
+    return (
+        <div className="text-center">
+            <Image_principale />
+            <h2>Aide avec le mot de passe</h2>
+            <p>Saisissez l'adresse e-mail associé à votre compte Scoot'heure</p>
+            <Input_email />
+            <br />
+            <a className='lien' href="/recuperation2">
+            <Button_send />
+            </a>
+        </div>
+    )
+
+}
+
+export default Recuperation;

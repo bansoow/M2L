@@ -1,0 +1,57 @@
+/* ////// |||||| CONNEXION |||||| \\\\\\\ */
+
+:root {
+    --min-width: 360px;
+}
+
+
+
+input {
+    border: Solid var(--primary) 2px;
+    border-radius: 5px;
+    color: var(--primary);
+    width: 30%;
+    min-width: var(--min-width);
+}
+
+h1 {
+    color: var(--primary);
+    font-size: 12.8px;
+    letter-spacing: 0.400em;
+}
+
+h2 {
+    color: var(--darker);
+    font-weight: 700 !important;
+}
+
+.lien {
+    margin-left: 5px;
+    color: var(--primary);
+    font-size: 12.8px;
+}
+
+.p-con {
+    color: var(--darker);
+    font-weight: 600 !important;
+}
+
+.scoot {
+    width: 50px;
+    padding-bottom: 2em;
+}
+
+.conteneur {
+    width: 100%;
+    padding: 50px;
+}
+
+.input {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.flex {
+    display: flex;
+}

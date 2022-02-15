@@ -1,0 +1,44 @@
+.PP {
+    border-radius: 50%;
+    width: 50%;
+    max-width: 480px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+
+    -webkit-box-shadow: -9px 9px 11px 3px rgba(0,0,0,0.7); 
+    box-shadow: -9px 9px 11px 3px rgba(0,0,0,0.7);
+}
+
+#MonProfil .voirPlus {
+    color: var(--primary);
+    text-align: right;
+}
+
+#MonProfil .mesCommandes{
+    text-align: left;
+}
+
+#MonProfil .commande {
+    width: 40%;
+    min-width: 200px;
+    max-width: 550px;
+
+    margin: auto;
+}
+
+.commande > img {
+    width: 100%;
+}
+
+.commande > a > img {
+    width: 100%;
+}
+
+.commande > .p-con {
+    float: right;
+}
+
+#MonProfil .responsive {
+    display: flex;
+    flex-flow: row wrap;
+}

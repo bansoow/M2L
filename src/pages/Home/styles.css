@@ -1,0 +1,20 @@
+#home h1{
+    color: var(--primary);
+    font-family: var(--Texte);
+    font-weight: bolder;
+}
+#home .row img{
+    width: 250px;
+}
+#home img{
+    width: 100%;
+}
+#home .row .center{
+    text-align: center;
+}
+#home .middle{
+    filter: blur(4px);
+}
+#home a{
+    text-decoration: none;
+}

@@ -1,0 +1,57 @@
+#produit .btn {
+    margin-left: 1em;
+}
+
+#produit .produit {
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#produit .responsive {
+    width: 70%;
+    max-width: 700px;
+    margin: auto
+}
+
+#produit .stars {
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+#produit .fa-star {
+    color: #c1c14d;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#produit .details {
+    background-color: var(--primary);
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 15px;
+}
+
+#produit .details > p {
+    color: var(--lighter);
+}
+
+#produit .btn1 {
+    color: var(--primary);
+    background-color: var(--lighter);
+    border-color: var(--primary);
+    width: 45%;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+#produit .btn2 {
+    color: var(--lighter);
+    background-color: var(--primary);
+    border-color: var(--primary);
+    width: 45%;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
