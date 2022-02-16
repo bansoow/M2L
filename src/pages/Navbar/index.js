@@ -1,5 +1,5 @@
 import { Navbar, Container, Nav, Form, FormControl, NavDropdown} from 'react-bootstrap';
-import Logo from '../../images/Logo2.png';
+import Logo from '../../images/Badminton_logo.png';
 import './index.css';
 
 const Navbars = () => {

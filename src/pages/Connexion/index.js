@@ -1,6 +1,6 @@
 import React from 'react';
 import Button_connect from '../../components/atoms/button/Button_connect';
-import Image_principale from '../../components/atoms/Image_principale';
+import ImagePrincipale from '../../components/atoms/ImagePrincipale';
 import Input_email from '../../components/atoms/input/Input_email';
 import Input_password from '../../components/atoms/input/Input_password';
 
@@ -9,8 +9,8 @@ import './styles.css';
 const Connexion = () => {
     
     return (
-        <div className='text-center'>
-            <Image_principale />
+        <div className='text-center' id='connexion'>
+            <ImagePrincipale />
             <h2>Connexion</h2>
             <br />
             <Input_email />

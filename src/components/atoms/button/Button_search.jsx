@@ -4,7 +4,7 @@ import '../../../App.css';
 function Button_search() {
     return(
         <>
-            <button className='btn'><span>Rechercher</span></button>
+            <button className='btn'>Rechercher</button>
         </>
     )
 }

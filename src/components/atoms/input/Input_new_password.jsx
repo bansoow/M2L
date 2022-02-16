@@ -3,7 +3,7 @@ import '../../../App.css';
 
 function Input_new_password() {
     return(
-        <input className='m-2 p-2'
+        <input type='password' className='m-2 p-2'
             placeholder="Nouveau mot de passe"
         />
     )

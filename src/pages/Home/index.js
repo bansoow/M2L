@@ -16,13 +16,13 @@ const Home = () => {
         <img className="middle" src={scoot} />
           <Row className="mt-4">
             <Col md={6} className="center">
-              <a href='/liste-des-produits'>
+              <a href='/listeproduit'>
                 <h2>Gants</h2>
                 <img src={images} />
               </a>
             </Col>
             <Col md={6} className="center">
-            <a href='/liste-des-produits'>
+            <a href='/listeproduit'>
                 <h2>Blouson</h2>
                 <img src={images1} />
               </a>
@@ -30,7 +30,7 @@ const Home = () => {
           </Row>
           <Row className="mt-4">
             <Col md={6} className="center">
-            <a href='/liste-des-produits'>
+            <a href='/listeproduit'>
                 <h2>Pantalon</h2>
                 <img src={images2} />
               </a>

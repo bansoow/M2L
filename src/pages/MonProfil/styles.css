@@ -16,6 +16,7 @@
 
 #MonProfil .mesCommandes{
     text-align: left;
+    color: var(--primary);
 }
 
 #MonProfil .commande {
@@ -41,4 +42,9 @@
 #MonProfil .responsive {
     display: flex;
     flex-flow: row wrap;
+}
+
+#MonProfil button{
+    background-color: var(--primary);
+    color: #FFFFFF;
 }

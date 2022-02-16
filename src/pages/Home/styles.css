@@ -3,6 +3,11 @@
     font-family: var(--Texte);
     font-weight: bolder;
 }
+#home h2{
+    color: var(--darker);
+    font-family: var(--Texte);
+    font-weight: bolder;
+}
 #home .row img{
     width: 250px;
 }

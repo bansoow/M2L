@@ -2,14 +2,16 @@ import React from 'react';
 import Input_email from '../../components/atoms/input/Input_email';
 import Input_password_retype from '../../components/atoms/input/input_password_retype';
 import Input_password from '../../components/atoms/input/Input_password';
-import Image_principale from '../../components/atoms/Image_principale';
+import ImagePrincipale from '../../components/atoms/ImagePrincipale';
 import Button_register from '../../components/atoms/button/Button_register';
+
+import './styles.css';
 
 const Inscription = () => {
     
     return (
-        <div className="text-center">
-            <Image_principale />
+        <div className="text-center" id='inscription'>
+            <ImagePrincipale />
             <h2>Inscription</h2>
             <br />
             <br />
