@@ -10,6 +10,9 @@
 
     /* TEXT */
     --Texte: 'Open Sans';
+    
+    /* WIDTH */
+    --min-width: 360px;
 }
 
 /* ////// |||||| CONNEXION |||||| \\\\\\\ */
@@ -17,6 +20,8 @@ input[type]:not([type=checkbox]):not([type=number]) {
     border: Solid var(--primary) 2px;
     border-radius: 5px;
     color: var(--primary);
+    width: 30%;
+    min-width: var(--min-width);
 }
 .App{
     background-color: var(--lighter);

@@ -4,7 +4,7 @@ import '../../../App.css';
 function Button_send() {
     return(
         <>
-            <button className='btn'><span>Inscription</span></button>
+            <button className='btn'>Inscription</button>
         </>
     )
 }

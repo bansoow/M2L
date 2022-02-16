@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import Scoot from '../../images/Scoot.png'
 
-function Image_principale() {
+function ImagePrincipale() {
     return(
         <div className='text-center'>
             <img src={Scoot} alt='scoot' />
@@ -13,4 +13,4 @@ function Image_principale() {
     )
 }
 
-export default Image_principale;
+export default ImagePrincipale;

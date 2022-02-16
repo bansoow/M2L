@@ -1,7 +1,6 @@
 import React from "react";
 import { BsFillTrashFill } from "@react-icons/all-files/bs/BsFillTrashFill";
 import Gants_1 from "../../images/Gants-1.png";
-import Navbar from '../Navbar';
 import "./styles.css";
 
 const Panier = () => {

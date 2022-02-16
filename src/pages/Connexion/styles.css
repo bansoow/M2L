@@ -4,54 +4,44 @@
     --min-width: 360px;
 }
 
-
-
-input {
-    border: Solid var(--primary) 2px;
-    border-radius: 5px;
-    color: var(--primary);
-    width: 30%;
-    min-width: var(--min-width);
-}
-
-h1 {
+#connexion h1 {
     color: var(--primary);
     font-size: 12.8px;
     letter-spacing: 0.400em;
 }
 
-h2 {
+#connexion h2 {
     color: var(--darker);
     font-weight: 700 !important;
 }
 
-.lien {
+#connexion .lien {
     margin-left: 5px;
     color: var(--primary);
     font-size: 12.8px;
 }
 
-.p-con {
+#connexion .p-con {
     color: var(--darker);
     font-weight: 600 !important;
 }
 
-.scoot {
+#connexion .scoot {
     width: 50px;
     padding-bottom: 2em;
 }
 
-.conteneur {
+#connexion .conteneur {
     width: 100%;
     padding: 50px;
 }
 
-.input {
+#connexion .input {
     padding: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
-.flex {
+#connexion .flex {
     display: flex;
 }

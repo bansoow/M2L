@@ -4,7 +4,7 @@ import '../../../App.css';
 function Button_send() {
     return(
         <>
-            <button className='btn'><span>Envoyer</span></button>
+            <button className='btn'>Envoyer</button>
         </>
     )
 }
