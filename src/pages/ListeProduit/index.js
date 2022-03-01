@@ -1,4 +1,4 @@
-import images from '../../images/Gants_1.jpg';
+import images from '../../images/Gants-1.png';
 import './styles.css';
 
 const ListeProduit = () => {
@@ -11,7 +11,9 @@ const ListeProduit = () => {
           </div>
           <div className='flex-vignette'>
             <div className="vignette">
+              <a className="redirect" href="/produit">
               <img src={images} />
+              </a>
               <div className="subTitle">
                 <div>
                   <h4>Gants jet D30 noir</h4>
@@ -23,7 +25,9 @@ const ListeProduit = () => {
               </div>
             </div>
             <div className="vignette">
+              <a className="redirect" href="/produit">
               <img src={images} />
+              </a>
               <div className="subTitle">
                 <div>
                   <h4>Gants jet D30 noir</h4>
@@ -35,7 +39,9 @@ const ListeProduit = () => {
               </div>
             </div>
             <div className="vignette">
+              <a className="redirect" href="/produit">
               <img src={images} />
+              </a>
               <div className="subTitle">
                 <div>
                   <h4>Gants jet D30 noir</h4>
@@ -54,7 +60,9 @@ const ListeProduit = () => {
             <h4>Voir plus</h4>
           </div>
           <div className="vignette">
+            <a className="redirect" href="/produit">
             <img src={images} />
+            </a>
             <div className="subtTitle">
               <div>
                 <h4>Gants jet D30 noir</h4>
@@ -72,7 +80,9 @@ const ListeProduit = () => {
             <h4>Voir plus</h4>
           </div>
           <div className="vignette">
+            <a className="redirect" href="/produit">
             <img src={images} />
+            </a>
             <div className="subtTitle">
               <div>
                 <h4>Gants jet D30 noir</h4>

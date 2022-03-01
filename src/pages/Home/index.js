@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import scoot from "../../images/scooter.jpg";
 import images from "../../images/Gants-1.png";
-import images1 from "../../images/Blouson-1.jpg";
-import images2 from "../../images/Pantalon.jpg";
+import images1 from "../../images/Blouson-1.png";
+import images2 from "../../images/Pantalon.png";
 import Navbar from '../Navbar';
 import "./styles.css";
 
@@ -18,13 +18,13 @@ const Home = () => {
             <Col md={6} className="center">
               <a href='/listeproduit'>
                 <h2>Gants</h2>
-                <img src={images} />
+                <img className="img" src={images} />
               </a>
             </Col>
             <Col md={6} className="center">
             <a href='/listeproduit'>
                 <h2>Blouson</h2>
-                <img src={images1} />
+                <img className="img" src={images1} />
               </a>
             </Col>
           </Row>
@@ -32,7 +32,7 @@ const Home = () => {
             <Col md={6} className="center">
             <a href='/listeproduit'>
                 <h2>Pantalon</h2>
-                <img src={images2} />
+                <img className="img" src={images2} />
               </a>
             </Col>
           </Row>

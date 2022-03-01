@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin: 10px;
+    color: var(--primary);
 }
 #listeProduit .flex-vignette{
     display: flex;
@@ -29,6 +30,19 @@
     margin: 0 15px;
     color: var(--primary);
 }
+
+#listeProduit h6{
+    color: var(--darker);
+}
+
+#listeProduit h4{
+    color: var(--primary);
+}
+
+#listeProduit h3{
+    color: var(--darker);
+}
+
 @media screen and (max-width:600px){
     #listeProduit .flex-vignette{
         flex-flow: row nowrap;

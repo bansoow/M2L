@@ -1,7 +1,8 @@
 #panier .obj-supp{
     display: flex;
     justify-content: space-between;
-    margin: 0 10px;
+    margin: 0 30px;
+    color: var(--primary);
 }
 #panier .grid-liste{
     width: 100%;
@@ -44,10 +45,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-left: 40px;
+    margin-left: 60px;
 }
 #panier .ajout .enStock{
-    color: var(--primary);
+    color: var(--darker);
 }
 #panier .ajout h4 span{
     margin-top: 30px;
@@ -101,11 +102,13 @@ input::-webkit-outer-spin-button{
 }
 
 #panier .panier{
-    margin-left:10px;
+    margin-left:30px;
+    color: var(--primary);
 }
 
 #panier .suppr{
-    margin-right: 35px;
+    margin-right: 20px;
+    color: var(--black);
 }
 
 #panier .btn-passer{
@@ -119,4 +122,12 @@ input::-webkit-outer-spin-button{
 
 #panier .prix{
     margin-left:110px;
+}
+
+#panier .ajout h4{
+    color: var(--primary);
+}
+
+#panier .title {
+    color: var(--black);
 }

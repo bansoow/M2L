@@ -63,6 +63,7 @@
 #commande .gras {
     font-weight: bold;
     font-size: 1.5em;
+    color: var(--primary);
 }
 
 #commande .droite {
@@ -79,9 +80,11 @@
 
 #commande > .h2 {
     width: 80%;
-    margin: auto;
+    margin-left: 10px;
     max-width: 900px;
     min-width: 400px;
+    color: var(--primary);
+    margin-bottom: 20px;
 }
 
 @media screen and (min-width: 860px) {
