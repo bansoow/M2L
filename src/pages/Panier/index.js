@@ -14,10 +14,10 @@ const Panier = () => {
   return (
     <div id="panier">
       <div className="title">
-        <h3>Panier</h3>
+        <h3 className="panier">Panier</h3>
         <div className="obj-supp">
           <h3>4 Objets</h3>
-          <h3>
+          <h3 className="suppr">
             <BsFillTrashFill />
             Supprimer séléctionner
           </h3>
@@ -120,10 +120,10 @@ const Panier = () => {
           </div>
           <div className="total">
             <div className="commande">
-              <h4>
+              <h4 className="prix">
                 Total : <span>35€</span>
               </h4>
-              <button type="button" className="btn">
+              <button type="button" className="btn-passer">
                 Passer la commande
               </button>
             </div>

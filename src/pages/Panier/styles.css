@@ -99,3 +99,23 @@ input::-webkit-outer-spin-button{
 #panier img{
     width: 200px;
 }
+
+#panier .panier{
+    margin-left:10px;
+}
+
+#panier .suppr{
+    margin-right: 35px;
+}
+
+#panier .btn-passer{
+    padding: 4px;
+    background-color: var(--primary);
+    color: var(--lighter);
+    border: none;
+    font-size: 20px;
+}
+
+#panier .prix{
+    margin-left:110px;
+}
