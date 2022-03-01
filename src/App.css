@@ -28,4 +28,5 @@ input[type]:not([type=checkbox]):not([type=number]) {
 }
 .App{
     background-color: var(--lighter);
+    min-height: 36.9em;
 }

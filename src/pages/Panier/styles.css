@@ -109,11 +109,12 @@ input::-webkit-outer-spin-button{
 }
 
 #panier .btn-passer{
-    padding: 4px;
+    padding: 6px;
     background-color: var(--primary);
     color: var(--lighter);
     border: none;
     font-size: 20px;
+    border-radius: 10px;
 }
 
 #panier .prix{

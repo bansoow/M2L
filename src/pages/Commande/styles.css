@@ -55,9 +55,9 @@
     text-align: center;
     width: 100%;
     background-color: var(--primary);
-    border-color: var(--primary);
     color: var(--lighter);
-    border-radius: 5px;
+    border: none;
+    border-radius: 15px;
 }
 
 #commande .gras {
