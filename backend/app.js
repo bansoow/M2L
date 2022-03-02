@@ -12,9 +12,11 @@ app.use(express.json());
 
 const panierRoute = require('./routes/panier');
 const listeProduitRoute = require('./routes/listeProduit');
+const produitRoute = require('./routes/produit')
 
 app.use('/api/panier', panierRoute);
 app.use('/api/listeProduit', listeProduitRoute);
+app.use('/api/produit', produitRoute);
 
 app.get('/api', (_, res) => res.send("Hello from API v1"));
 
