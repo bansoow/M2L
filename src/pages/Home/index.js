@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import scoot from "../../images/scooter.jpg";
 import images from "../../images/Gants-1.png";
-import images1 from "../../images/Blouson-1.jpg";
-import images2 from "../../images/Pantalon.jpg";
+import images1 from "../../images/Blouson-1.png";
+import images2 from "../../images/Pantalon.png";
 import "./styles.css";
 import axios from "axios";
 
@@ -16,7 +16,7 @@ const Home = () => {
 
   let displayProduit = (
     produit.map(element => {
-      return <h1>{element.nom_client}</h1>
+      return <h1>{element.nom_produit}</h1>
     })
   )
     return (
@@ -28,23 +28,23 @@ const Home = () => {
         <img className="middle" src={scoot} alt=""/>
           <Row className="mt-4">
             <Col md={6} className="center">
-              <a href='/liste-des-produits'>
+              <a href='/listeproduit'>
                 <h2>Gants</h2>
-                <img src={images} alt="" />
+                <img className="img" src={images} alt="" />
               </a>
             </Col>
             <Col md={6} className="center">
-            <a href='/liste-des-produits'>
+            <a href='/listeproduit'>
                 <h2>Blouson</h2>
-                <img src={images1} alt="" />
+                <img className="img" src={images1} alt="" />
               </a>
             </Col>
           </Row>
           <Row className="mt-4">
             <Col md={6} className="center">
-            <a href='/liste-des-produits'>
+            <a href='/listeproduit'>
                 <h2>Pantalon</h2>
-                <img src={images2} alt="" />
+                <img className="img" src={images2} alt="" />
               </a>
             </Col>
           </Row>

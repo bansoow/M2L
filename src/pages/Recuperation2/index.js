@@ -5,13 +5,15 @@ import Input_old_password from '../../components/atoms/input/Input_old_password'
 import Input_new_password from '../../components/atoms/input/Input_new_password';
 import Button_reset from '../../components/atoms/button/Button_reset';
 
+import './styles.css';
+
 const Recuperation2 = () => {
     
     return (
-        <div className="text-center">
+        <div className="text-center" id="recuperation2">
             <ImagePrincipale />
             <h2>Aide avec le mot de passe</h2>
-            <p>Retapez votre ancien mot de passe puis votre nouveau mot de passe</p>
+            <p className='p-con'>Retapez votre ancien mot de passe puis votre nouveau mot de passe</p>
             <Input_old_password />
             <br />
             <Input_new_password />

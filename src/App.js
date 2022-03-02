@@ -11,7 +11,7 @@ import Panier from './pages/Panier';
 import Commande from './pages/Commande';
 import NotFound from './pages/NotFound';
 import Navbar from './pages/Navbar';
-
+import ListeProduit from './pages/ListeProduit';
 import './App.css';
 import Recuperation2 from './pages/Recuperation2';
 
@@ -30,6 +30,7 @@ const App = () => {
           <Route path="/produit" element={<Produit />} />
           <Route path="/panier" element={<Panier />} />
           <Route path="/commande" element={<Commande />} />
+          <Route path="/ListeProduit" element={<ListeProduit />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
     </div>

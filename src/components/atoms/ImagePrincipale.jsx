@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../App.css';
-import Scoot from '../../images/Scoot.png'
+import Scoot from '../../images/Badminton_logo.png'
 
 function ImagePrincipale() {
     return(
         <div className='text-center'>
-            <img src={Scoot} alt='scoot' />
+            <img src={Scoot} alt='scoot' class="logo"/>
             <br />
             <h1 className='h1'>Scoot'heure</h1>
             <br />

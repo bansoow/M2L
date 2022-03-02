@@ -5,10 +5,12 @@ import Input_password from '../../components/atoms/input/Input_password';
 import ImagePrincipale from '../../components/atoms/ImagePrincipale';
 import Button_register from '../../components/atoms/button/Button_register';
 
+import './styles.css';
+
 const Inscription = () => {
     
     return (
-        <div className="text-center">
+        <div className="text-center" id='inscription'>
             <ImagePrincipale />
             <h2>Inscription</h2>
             <br />

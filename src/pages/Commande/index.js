@@ -19,6 +19,7 @@ const Commande = () => {
                         <p class="gras">Metal Earrings</p>
                         <span class="gras">35€</span>
                         <span class="droite">En stock</span>
+                        <br /><span class="nombre">Quantité : 2</span>
                     </div>
                     <img src={Gants} alt='image gants'></img>
                 </div>
@@ -28,6 +29,7 @@ const Commande = () => {
                         <p className="gras">Metal Earrings</p>
                         <span className="gras">35€</span>
                         <span className="droite">En stock</span>
+                        <br /><span class="nombre">Quantité : 2</span>
                     </div>
                     <img src={Gants} alt='image gants'></img>
                 </div>

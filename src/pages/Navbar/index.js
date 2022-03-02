@@ -1,5 +1,5 @@
 import { Navbar, Container, Nav, Form, FormControl, NavDropdown} from 'react-bootstrap';
-import Logo from '../../images/Logo2.png';
+import Logo from '../../images/Badminton_logo.png';
 import './index.css';
 
 const Navbars = () => {
@@ -19,7 +19,6 @@ const Navbars = () => {
                 <NavDropdown.Item href="/inscription">Inscription</NavDropdown.Item>
                 <NavDropdown.Item href="/profil">Profil</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/commande">Commande </Nav.Link>
               <Nav.Link href="/panier">Panier</Nav.Link>
             </Nav>
             <Form className="d-flex">

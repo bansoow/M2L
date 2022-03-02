@@ -44,6 +44,7 @@
     margin-right: 10px;
     border-radius: 10px;
     margin-bottom: 2em;
+    border: solid 2px var(--primary);
 }
 
 #produit .btn2 {
@@ -54,4 +55,13 @@
     margin-left: 10px;
     border-radius: 10px;
     margin-bottom: 2em;
+    border: none;
+}
+
+#produit .redirect{
+    text-decoration: none;
+}
+
+#produit .titles{
+    color: var(--primary);
 }
