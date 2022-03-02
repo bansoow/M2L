@@ -19,7 +19,6 @@ const Navbars = () => {
                 <NavDropdown.Item href="/inscription">Inscription</NavDropdown.Item>
                 <NavDropdown.Item href="/profil">Profil</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/commande">Commande </Nav.Link>
               <Nav.Link href="/panier">Panier</Nav.Link>
             </Nav>
             <Form className="d-flex">

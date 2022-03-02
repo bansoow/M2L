@@ -123,9 +123,11 @@ const Panier = () => {
               <h4 className="prix">
                 Total : <span>35€</span>
               </h4>
+              <a href="/commande">
               <button type="button" className="btn-passer">
                 Passer la commande
               </button>
+              </a>
             </div>
           </div>
         </div>

@@ -72,6 +72,10 @@
     font-size: 1em;
 }
 
+#commande .nombre {
+    color: var(--darker);
+}
+
 #container-produit, .reservation {
     width: 80%;
     max-width: 900px;
