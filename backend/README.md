@@ -10,7 +10,7 @@ then run this for development
 
 
 ```cmd
-mpm run dev
+npm run dev
 ```
 or this for production
 
