@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Notes from "../Notes";
 import scoot from "../../images/scooter.jpg";
 import images from "../../images/Gants-1.png";
 import images1 from "../../images/Blouson-1.jpg";
@@ -9,36 +8,23 @@ import "./styles.css";
 import axios from "axios";
 
 const Home = () => {
-  const [notes, setNotes] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
-  const [isError, setIsError] = useState(false);
-  const fetchData = () => {
+  const [produit, setProduit] = useState([]);  
     axios
-      .get('localhost:8000/api/listeProduit/')
-      .then((response) => {
-        console.log(response.data);
-        setIsLoading(false);
-        setNotes(response.data);
-      })
-      .catch((error) => {
-        setIsLoading(false);
-        setIsError(true);
-        console.log(error);
-      });
-  };
-  useEffect(() => {
-    fetchData();
-  }, []);
-  if (isLoading) {
-    return <div>Loading...</div>;
-  }
-    console.log(images);
+      .get('http://localhost:8000/api/listeProduit/')
+      .then((response) => {setProduit(response.data)})
+      .catch((error) => {console.log(error);});
+
+  let displayProduit = (
+    produit.map(element => {
+      return <h1>{element.nom_client}</h1>
+    })
+  )
     return (
       <div>
         <Container id="home">
-        <h1>Using Axios</h1>
-      {notes && <Notes data={notes} />}
-      {isError && <div>Error fetching data.</div>}
+          {produit.length === 0 ? console.log("produit is undefined") : displayProduit }
+          
+            
         <img className="middle" src={scoot} alt=""/>
           <Row className="mt-4">
             <Col md={6} className="center">
