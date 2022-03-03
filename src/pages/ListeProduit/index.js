@@ -22,7 +22,7 @@ const ListeProduit = () => {
             <h6>{element.marque_produit}</h6>
             </div>
             <div className='price'>
-            <h3>{element.prix_produit}</h3>
+            <h3>{element.prix_produit}€</h3>
             </div>
           </div>
           </div>
