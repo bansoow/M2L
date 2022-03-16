@@ -13,8 +13,7 @@ const Recuperation2 = () => {
         <div className="text-center" id="recuperation2">
             <ImagePrincipale />
             <h2>Aide avec le mot de passe</h2>
-            <p className='p-con'>Retapez votre ancien mot de passe puis votre nouveau mot de passe</p>
-            <Input_old_password />
+            <p className='p-con'>Retapez votre nouveau mot de passe</p>
             <br />
             <Input_new_password />
             <br />

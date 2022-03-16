@@ -5,8 +5,8 @@ module.exports = {
         let connexion;
         try {
             connexion = await pool.getConnection();
-            const result = await connexion.query('SELECT * FROM t_produit;');
-            return res.status(200).json(result)
+            const result = await connexion.query('select * from t_produit;');
+            return res.status(200).json( result )
         } catch (error) {
             return res.status(400).json({ error: error.message });
         } finally {
