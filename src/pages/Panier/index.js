@@ -31,7 +31,7 @@ const Panier = () => {
                 <input type="checkbox" />
               </div>
               <div className="apercu">
-                <img src={Gants_1} />
+                <img src={Gants_1} alt=""/>
               </div>
               <div className="ajout">
                 <h4>
@@ -77,7 +77,7 @@ const Panier = () => {
                 <input type="checkbox" />
               </div>
               <div className="apercu">
-                <img src={Gants_1} />
+                <img src={Gants_1} alt="" />
               </div>
               <div className="ajout">
                 <h4>
