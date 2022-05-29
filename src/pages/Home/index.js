@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import scoot from "../../images/scooter.jpg";
-import images from "../../images/Gants-1.png";
+import images from "../../images/volants.png";
 import "./styles.css";
 import axios from "axios";
 

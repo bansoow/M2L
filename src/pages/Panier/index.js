@@ -31,7 +31,7 @@ const Panier = () => {
                 <input type="checkbox" />
               </div>
               <div className="apercu">
-                <img src={Gants_1} alt=""/>
+                <img src={Gants_1} alt="" />
               </div>
               <div className="ajout">
                 <h4>
@@ -124,9 +124,9 @@ const Panier = () => {
                 Total : <span>35€</span>
               </h4>
               <a href="/commande">
-              <button type="button" className="btn-passer">
-                Passer la commande
-              </button>
+                <button type="button" className="btn-passer">
+                  Passer la commande
+                </button>
               </a>
             </div>
           </div>
