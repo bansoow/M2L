@@ -3,16 +3,17 @@ import "./styles.css";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 
-const ListeProduit = () => {
+const ListeProduit = (props) => {
   const [produit, setProduit] = useState([]);
   const { id } = useParams;
 
-  console.log(id);
+  console.log();
 
   //Requete API qui récupère la liste des produits
-  function callRequest() {
+  function callRequest(id) {
+    console.log(id)
     axios
-      .get("http://localhost:8000/api/listeProduit/categorie/"+id)
+      .get(`http://localhost:8000/api/listeProduit/categorie/${id}`)
       .then((response) => {
         setProduit(response.data);
         console.log(setProduit);

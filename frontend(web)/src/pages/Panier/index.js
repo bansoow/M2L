@@ -2,6 +2,7 @@ import React from "react";
 import { BsFillTrashFill } from "@react-icons/all-files/bs/BsFillTrashFill";
 import Gants_1 from "../../images/Gants-1.png";
 import "./styles.css";
+import axios from "axios";
 
 const Panier = () => {
   function increment() {
@@ -9,6 +10,9 @@ const Panier = () => {
   }
   function decrement() {
     document.getElementById("qty").stepDown();
+  } 
+  function max(){
+
   }
 
   return (
@@ -31,7 +35,7 @@ const Panier = () => {
                 <input type="checkbox" />
               </div>
               <div className="apercu">
-                <img src={Gants_1} />
+                <img src={Gants_1} alt="" />
               </div>
               <div className="ajout">
                 <h4>
@@ -54,7 +58,7 @@ const Panier = () => {
                       name="qty"
                       id="qty"
                       min="1"
-                      max="10"
+                      max={max}
                       value="1"
                     />
                     <button
@@ -77,7 +81,7 @@ const Panier = () => {
                 <input type="checkbox" />
               </div>
               <div className="apercu">
-                <img src={Gants_1} />
+                <img src={Gants_1} alt="" />
               </div>
               <div className="ajout">
                 <h4>
@@ -124,9 +128,9 @@ const Panier = () => {
                 Total : <span>35€</span>
               </h4>
               <a href="/commande">
-              <button type="button" className="btn-passer">
-                Passer la commande
-              </button>
+                <button type="button" className="btn-passer">
+                  Passer la commande
+                </button>
               </a>
             </div>
           </div>

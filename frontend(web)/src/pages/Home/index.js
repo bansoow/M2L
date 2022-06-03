@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import scoot from "../../images/scooter.jpg";
 import "./styles.css";
 import axios from "axios";
+import {Link} from 'react-router-dom';
+
 
 const Home = () => {
   const [produit, setProduit] = useState([]);
@@ -20,14 +22,18 @@ const Home = () => {
   }
 
   //Fonction affichage des produits
+  /* AIDE ICI : https://fr.reactjs.org/docs/render-props.html 
+        <a href={`/listeProduit/${element.idcategorie_produit}`} render={element.idcategorie_produit}>
+        </a>
+ */
   let displayProduit = produit.map((element) => {
     console.log(element);
     return (
       <Col md={6} className="center mb-3">
-        <a href={`/listeProduit/${element.idcategorie_produit}`}>
+        <Link to={{ pathname: `/listeProduit/${element.idcategorie_produit}`}} >
           <h2>{element.nom_categorie}</h2>
           <img className="img" src={`images/${element.nom_categorie}.jpg`.split(' ').join('_')} alt="missing" />
-        </a>
+        </Link>
       </Col>
     );
   });
