@@ -1,0 +1,32 @@
+/* ////// |||||| ROOT |||||| \\\\\\\ */
+
+:root {
+    /* COLOR */
+    --primary: #e1223b;
+    --darker: #8d2c34;
+    --lighter: #EAEDED;
+    --black: #000000;
+    --bgf5: #F5F5F5;
+    --secondary: #c89e12;
+
+    /* TEXT */
+    --Texte: 'Open Sans';
+    --min-width: 360px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input[type]:not([type=checkbox]):not([type=number]) {
+    border: Solid var(--primary) 2px;
+    border-radius: 5px;
+    color: var(--primary);
+    width: 30%;
+    min-width: var(--min-width);
+}
+.App{
+    background-color: var(--lighter);
+    min-height: 36.9em;
+}

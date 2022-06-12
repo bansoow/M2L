@@ -1,0 +1,100 @@
+#commande .btn-retour {
+    background-color: var(--primary);
+    color: var(--lighter);
+    border-color: var(--primary);
+    border-radius: 8px;
+
+    padding: 0.25em 1em 0.25em 1em;
+    float: right;
+    margin-right: 1em;
+}
+
+#commande #container-produit {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+#commande .produit {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: auto;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+#commande .description {
+    padding: 3em;
+    margin: auto;
+}
+
+#commande .description > p, span {
+    margin-right: 20px;
+} 
+
+#commande .produit > img {
+    width: 100%;
+    max-width: 200px;
+    min-width: 140px;
+    height: auto;
+    padding: 2em;
+}
+
+#commande .reservation {
+    padding: 2em;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+#commande .reservation > button {
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    background-color: var(--primary);
+    color: var(--lighter);
+    border: none;
+    border-radius: 15px;
+}
+
+#commande .gras {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: var(--primary);
+}
+
+#commande .droite {
+    margin-left: 2em;
+    color: var(--darker);
+    font-size: 1em;
+}
+
+#commande .nombre {
+    color: var(--darker);
+}
+
+#container-produit, .reservation {
+    width: 80%;
+    max-width: 900px;
+    min-width: 400px;
+}
+
+#commande > .h2 {
+    width: 80%;
+    margin-left: 10px;
+    max-width: 900px;
+    min-width: 400px;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 860px) {
+
+    #commande .description > p, span {
+        margin-right: 120px;
+    }
+
+}
